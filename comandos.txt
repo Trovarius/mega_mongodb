@@ -1,0 +1,3 @@
+# import csv 
+mongoimport --db mega_sena --collection resultados --type csv --headerline --file ./tabela.csv 
+
